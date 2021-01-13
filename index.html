@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Tutorial</title>
+
+    
+    
+    <style>
+        #main{
+            border: 4px;
+            border-style: solid;
+            margin: 20px;
+            padding: 30px;   
+        }
+        #dinerTable ul
+        {
+          list-style-type: none;
+        }
+        .ly
+         {
+          padding: 10px;
+          background-color: rgba(155, 221, 0, 0.671);
+         }      
+         #dinerTable #hide
+         {
+             width: 50px;
+         }
+         #dinerTable label
+         {
+             line-height: 52px;
+         }
+    </style>
+
+</head>
+
+<body>
+    <div id="main"> 
+        <h1 class="headings">Books to Read</h1>
+        <div>
+            <form id="search-books">
+                <input type="text" placeholder="Search Books..." />
+              </form>
+            <form id="add-books">
+                
+                
+                
+                <input type="text" id="name" placeholder="add book to list"><button>Add to List</button> </br>
+                <input type="checkbox" id="hide">
+                <label for="hide">Hide All Books</label>
+    
+            </form>
+            
+            <ul  id="Books">
+                    
+            </ul>
+        </div>
+        <br/>
+       
+        <br/><br/>
+        <button onclick="sltAll()">Update List</button>
+       <button onclick=" parChi()">Show Books</button> <button onclick=" books()">books</button>
+    </div>
+    <script>
+        
+         
+        
+    </script>
+    <script src="showcontent.js"></script>
+    <script src="addToList.js"></script>
+    <script src="hidebook.js"></script>
+    <script src="function.js"></script>
+    <script src="declarations.js"></script>
+    <script src="search.js"></script>
+    <script src="hidebook.js"></script>
+</body>
+</html>
